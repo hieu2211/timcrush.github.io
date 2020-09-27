@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-    background-image: url("./44780.jpg");
+    background-image: url("../44780.jpg");
     position: relative;
     height: 100vh;
 }
