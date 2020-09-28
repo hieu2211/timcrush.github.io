@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-    width: 30%;
+    width: 400px;
     height: 500px;
     position: absolute;
     top: 50%;
@@ -118,4 +118,10 @@ label {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 350px;
+    }
 }
